@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ADDGAP,,,,2022-10-31 10:25:11,2022-10-31 10:25:15,3.782s,PASSED
+,,,,,,,
+Test Cases/GapServiceR/TC_01_CreateGapDy,,,,2022-10-31 10:25:12,2022-10-31 10:25:15,3.448s,PASSED
+"Response = sendRequest(findTestObject(""GAPServiceRequest/CreateGap"", [""GapName"":GPN, ""GapWeight"":GAPW, ""GapScore"":GAPS, ""GapDescription"":GAPD]))",,,,2022-10-31 10:25:12,2022-10-31 10:25:15,2.488s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-10-31 10:25:15,2022-10-31 10:25:15,0.022s,PASSED
+println(responseText),,,,2022-10-31 10:25:15,2022-10-31 10:25:15,0.020s,PASSED
+"verifyElementPropertyValue(Response, ""data.gap_name"", GPN)",,,,2022-10-31 10:25:15,2022-10-31 10:25:15,0.109s,PASSED

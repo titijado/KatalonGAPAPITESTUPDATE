@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UpdateGap" time="3.485" tests="1" failures="0" errors="0">
+   <testsuite name="UpdateGap" tests="1" failures="0" errors="0" time="3.485" skipped="0" timestamp="2022-10-31 10:28:46" hostname="PC - DESKTOP-MDQM0B6" id="Test Suites/UpdateGap/UpdateGap">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\Katalon Studio\\BK Quality Assurance GAP API TEST\\Reports\\20221031_102843\\UpdateGap\\UpdateGap\\20221031_102843"/>
+         <property name="logFiles" value="C:\\Users\\PC\\Katalon Studio\\BK Quality Assurance GAP API TEST\\Reports\\20221031_102843\\UpdateGap\\UpdateGap\\20221031_102843\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - DESKTOP-MDQM0B6"/>
+         <property name="hostAddress" value="192.168.43.88"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+      </properties>
+      <testcase name="Test Cases/GapServiceR/TC_03_UpdateGap" time="3.144" classname="Test Cases/GapServiceR/TC_03_UpdateGap" status="PASSED">
+         <system-out><![CDATA[2022-10-31 10:28:46 - [TEST_CASE][PASSED] - Test Cases/GapServiceR/TC_03_UpdateGap: Test Cases/GapServiceR/TC_03_UpdateGap
+
+2022-10-31 10:28:47 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("GAPServiceRequest/UpdateGap", ["ID":GAPID, "Gap_Name":UpdateGapname])): Send request successfully
+
+2022-10-31 10:28:49 - [MESSAGE][INFO] - HAR: C:\Users\PC\Katalon Studio\BK Quality Assurance GAP API TEST\Reports\20221031_102843\UpdateGap\UpdateGap\20221031_102843\requests\main\0.har
+
+2022-10-31 10:28:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-31 10:28:49 - [TEST_STEP][PASSED] - println(responseText): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-31 10:28:46 - [TEST_SUITE][PASSED] - UpdateGap: Test Cases/GapServiceR/TC_03_UpdateGap]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

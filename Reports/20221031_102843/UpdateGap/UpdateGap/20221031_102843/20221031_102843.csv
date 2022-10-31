@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UpdateGap,,,,2022-10-31 10:28:46,2022-10-31 10:28:49,3.485s,PASSED
+,,,,,,,
+Test Cases/GapServiceR/TC_03_UpdateGap,,,,2022-10-31 10:28:46,2022-10-31 10:28:49,3.144s,PASSED
+"Response = sendRequest(findTestObject(""GAPServiceRequest/UpdateGap"", [""ID"":GAPID, ""Gap_Name"":UpdateGapname]))",,,,2022-10-31 10:28:47,2022-10-31 10:28:49,2.479s,PASSED
+println(responseText),,,,2022-10-31 10:28:49,2022-10-31 10:28:49,0.014s,PASSED

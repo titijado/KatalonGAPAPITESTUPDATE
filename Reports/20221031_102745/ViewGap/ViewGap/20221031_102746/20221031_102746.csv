@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ViewGap,,,,2022-10-31 10:27:49,2022-10-31 10:27:54,4.132s,PASSED
+,,,,,,,
+Test Cases/GapServiceR/TC_04_GetOneGap,,,,2022-10-31 10:27:50,2022-10-31 10:27:53,2.965s,PASSED
+"Res = sendRequest(findTestObject(""GAPServiceRequest/GetOneGap""))",,,,2022-10-31 10:27:50,2022-10-31 10:27:53,2.410s,PASSED
+"verifyResponseStatusCode(Res, 200)",,,,2022-10-31 10:27:53,2022-10-31 10:27:53,0.028s,PASSED
+println(Res.getResponseText()),,,,2022-10-31 10:27:53,2022-10-31 10:27:53,0.014s,PASSED
+,,,,,,,
+Test Cases/GapServiceR/TC_02_GetGap,,,,2022-10-31 10:27:53,2022-10-31 10:27:54,0.802s,PASSED
+"resp = sendRequest(findTestObject(""GAPServiceRequest/GetGap""))",,,,2022-10-31 10:27:53,2022-10-31 10:27:54,0.481s,PASSED
+"verifyResponseStatusCode(resp, 200)",,,,2022-10-31 10:27:54,2022-10-31 10:27:54,0.004s,PASSED
+println(resp.getResponseText()),,,,2022-10-31 10:27:54,2022-10-31 10:27:54,0.003s,PASSED

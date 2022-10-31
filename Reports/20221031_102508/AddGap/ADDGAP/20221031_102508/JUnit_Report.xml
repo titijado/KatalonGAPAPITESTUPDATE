@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ADDGAP" time="3.782" tests="1" failures="0" errors="0">
+   <testsuite name="ADDGAP" tests="1" failures="0" errors="0" time="3.782" skipped="0" timestamp="2022-10-31 10:25:11" hostname="PC - DESKTOP-MDQM0B6" id="Test Suites/AddGap/ADDGAP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\Katalon Studio\\BK Quality Assurance GAP API TEST\\Reports\\20221031_102508\\AddGap\\ADDGAP\\20221031_102508"/>
+         <property name="logFiles" value="C:\\Users\\PC\\Katalon Studio\\BK Quality Assurance GAP API TEST\\Reports\\20221031_102508\\AddGap\\ADDGAP\\20221031_102508\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - DESKTOP-MDQM0B6"/>
+         <property name="hostAddress" value="192.168.43.88"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+      </properties>
+      <testcase name="Test Cases/GapServiceR/TC_01_CreateGapDy" time="3.448" classname="Test Cases/GapServiceR/TC_01_CreateGapDy" status="PASSED">
+         <system-out><![CDATA[2022-10-31 10:25:12 - [TEST_CASE][PASSED] - Test Cases/GapServiceR/TC_01_CreateGapDy: Test Cases/GapServiceR/TC_01_CreateGapDy
+
+2022-10-31 10:25:12 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("GAPServiceRequest/CreateGap", ["GapName":GPN, "GapWeight":GAPW, "GapScore":GAPS, "GapDescription":GAPD])): Send request successfully
+
+2022-10-31 10:25:15 - [MESSAGE][INFO] - HAR: C:\Users\PC\Katalon Studio\BK Quality Assurance GAP API TEST\Reports\20221031_102508\AddGap\ADDGAP\20221031_102508\requests\main\0.har
+
+2022-10-31 10:25:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-31 10:25:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-10-31 10:25:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-31 10:25:15 - [TEST_STEP][PASSED] - println(responseText): null
+
+2022-10-31 10:25:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.gap_name", GPN): Verify element property value successfully
+
+2022-10-31 10:25:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-31 10:25:11 - [TEST_SUITE][PASSED] - ADDGAP: Test Cases/GapServiceR/TC_01_CreateGapDy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
